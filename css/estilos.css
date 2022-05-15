@@ -50,7 +50,7 @@ body{
     text-align: center;
 }
 .Div1_Secc2,.Div1_Secc4{
-    position: absolute;
+    position: relative;
     left: 6%;
     width: 70%;
 }
@@ -60,7 +60,7 @@ body{
     text-align: center;
 }
 .Div1_Secc3,.Div1_Secc5{
-    position: absolute;
+    position: relative;
     left: 70%;
     width: 70%;
 }
