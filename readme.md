@@ -68,5 +68,5 @@ para realizan la vinculacion con el repositicio remoto
 si tienes cuenta PRO
 git remote add origin git@github.com:davidjuarezr/voluntariado.github.io.git
 o si es la gratis
-git remote add origin https://github.com/davidjuarezr/voluntariado.github.io.githttps://github.com/davidjuarezr/voluntariado.github.io.git
+git remote add origin https://github.com/davidjuarezr/voluntariado.github.io.git
 git remote -v
