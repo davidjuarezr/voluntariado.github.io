@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+    <link href="./css/estilos.css" rel="stylesheet" type="text/css">
+    <script src="/js/micodigo.js"></script>
+</head>
+
+<body>
+    <header>
+        <section class="Secc1"></section>
+        <!--Bloque 1-->
+        <h1 class="tituloprincipal">Alerta Sargazo</h1>
+        <ul class="menu">
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="formulario.html">¿Como puedo ayudar?</a></li>
+        </ul>
+    </header>
+
+    <form action="" class="form">
+        <div class="form__container">
+
+            <div id="contenido-general">
+                <h2 class="form__title">Hola sargacero</h2>
+                <h3 class="form__subtitle">Estamos comprometidos con nuestras playas. Nuestro país necesita, mujeres y hombres brillantes.</h3>
+                <h43><strong>Registrate</strong></h43><br>
+                <br>
+                <label for="form__lb">Nombre:</label><br>
+                <input type="text" class="form__input" name="" id="" placeholder="Nombre"><br>
+                <label for="form__lb">Apellido Paterno:</label><br>
+                <input type="text" class="form__input" name="" id="" placeholder="Paterno"><br>
+                <label for="form__lb">Apellido Materno:</label><br>
+                <input type="text" class="form__input" name="" id="" placeholder="Materno"><br>
+                <label for="form__lb">Email:</label><br>
+                <input type="email" class="form__input" name="" id="" placeholder="Email"><br>
+            </div>
+
+            <div id="contenido-radio">
+                <div class="genero">
+                    <label>Genero</label>
+                    <br>
+                    <input type="radio" id="hombre" name="genero" value="hombre" checked>Hombre <br>
+                    <input type="radio" id="mujer" name="genero" value="mujer">Mujer <br>
+
+                </div>
+
+                <br>
+                <label for="rango-edad">Rango de edad:</label>
+                <select name="rango-edad" id="rango-edad">
+                    <option value="primero" selected>18 - 30</option>
+                    <option value="segundo">31 - 50</option>
+                    <option value="tercero">51 - 70</option>
+                    <option value="cuarto">71 o Más</option>
+                </select>
+                <br>
+                <br>
+                <label for="form__lb">Entidad:</label><br>
+                <input type="text" class="form__input" name="" id="" placeholder="Entidad"><br>
+                <label for="form__lb">Municipio / Alcaldía:</label><br>
+                <input type="text" class="form__input" name="" id="" placeholder="Municipio"><br>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" name="" id="cbox" value="acepto">
+                <label for="cbox">Quiero recibir notificaciones, invitaciones a eventos</label><br><br>
+                <input type="submit" onClick="alert('Gracias por integrarte a nuestro equipo de sargazo')"
+                    value="REGISTRATE" class="form__cta" id="boton">
+            </div>
+            <br><br>
+        </div>
+    </form>    
+</body>
+
+</html>
