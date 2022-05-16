@@ -119,3 +119,13 @@ git status
 git add .
 git commit -m "Paso 14: Se actualizo el archivo readme.md"
 git push origin master
+
+
+Para visualizar la página se utilizo GitHub Pages
+
+https://davidjuarezr.github.io/voluntariado.github.io/index.html
+
+git status
+git add .
+git commit -m "Paso 15: Se agrega readme.md, se incluye la URL para visualizar la página desde GitHub Pages"
+git push origin master
