@@ -21,7 +21,7 @@
         </ul>
     </header>
 
-    <form action="" class="form">
+    <form name="form" action="conexion.php" method="post" class="form">
         <div class="form__container">
 
             <div id="contenido-general">
@@ -30,28 +30,28 @@
                 <h43><strong>Registrate</strong></h43><br>
                 <br>
                 <label for="form__lb">Nombre:</label><br>
-                <input type="text" class="form__input" name="" id="" placeholder="Nombre"><br>
+                <input type="text" class="form__input" name="nombre" id="" placeholder="Nombre"><br>
                 <label for="form__lb">Apellido Paterno:</label><br>
-                <input type="text" class="form__input" name="" id="" placeholder="Paterno"><br>
+                <input type="text" class="form__input" name="paterno" id="" placeholder="Paterno"><br>
                 <label for="form__lb">Apellido Materno:</label><br>
-                <input type="text" class="form__input" name="" id="" placeholder="Materno"><br>
+                <input type="text" class="form__input" name="materno" id="" placeholder="Materno"><br>
                 <label for="form__lb">Email:</label><br>
-                <input type="email" class="form__input" name="" id="" placeholder="Email"><br>
+                <input type="email" class="form__input" name="email" id="" placeholder="Email"><br>
             </div>
 
             <div id="contenido-radio">
                 <div class="genero">
                     <label>Genero</label>
                     <br>
-                    <input type="radio" id="hombre" name="genero" value="hombre" checked>Hombre <br>
+                    <input type="radio" id="hombre" name="genero" value="hombre" checked="">Hombre <br>
                     <input type="radio" id="mujer" name="genero" value="mujer">Mujer <br>
 
                 </div>
 
                 <br>
                 <label for="rango-edad">Rango de edad:</label>
-                <select name="rango-edad" id="rango-edad">
-                    <option value="primero" selected>18 - 30</option>
+                <select name="edad" id="rango-edad">
+                    <option value="primero" selected="" >18 - 30</option>
                     <option value="segundo">31 - 50</option>
                     <option value="tercero">51 - 70</option>
                     <option value="cuarto">71 o Más</option>
@@ -59,16 +59,15 @@
                 <br>
                 <br>
                 <label for="form__lb">Entidad:</label><br>
-                <input type="text" class="form__input" name="" id="" placeholder="Entidad"><br>
+                <input type="text" class="form__input" name="entidad" id="" placeholder="Entidad"><br>
                 <label for="form__lb">Municipio / Alcaldía:</label><br>
-                <input type="text" class="form__input" name="" id="" placeholder="Municipio"><br>
+                <input type="text" class="form__input" name="municipio" id="" placeholder="Municipio"><br>
             </div>
             <br>
             <div>
-                <input type="checkbox" name="" id="cbox" value="acepto">
+                <input type="checkbox" name="notificaciones" id="cbox" value="acepto">
                 <label for="cbox">Quiero recibir notificaciones, invitaciones a eventos</label><br><br>
-                <input type="submit" onClick="alert('Gracias por integrarte a nuestro equipo de sargazo')"
-                    value="REGISTRATE" class="form__cta" id="boton">
+                <input type="submit" value="REGISTRATE" class="form__cta" id="boton">
             </div>
             <br><br>
         </div>
